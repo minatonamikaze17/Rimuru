@@ -32,14 +32,11 @@ async def pmperm(slime):
       await rimuru(functions.contacts.BlockRequest(id=user.id))
       await rimuru.send_message(slime.chat_id, "Agh, You wont lose your virginity here...")
       time.sleep(2)
-      await rimuru.send_message(slime.chat_id, "Wait till Hamdhan comes..")
+      await rimuru.send_message(slime.chat_id, "Wait till Abhi comes..")
     else:
       now[user.id] = count + 1
   else:
     now[user.id] = 1
-    await rimuru.send_file(slime.chat_id, file="CAADBQADWgIAAo-r2FTHhGRff7EgdQI")
-    time.sleep
-    await slime.reply(f"Yo {user.first_name}! Please wait till Hamdhan comes and approves you...")
 
 
 @rimuru.on(events.NewMessage(outgoing=True, pattern=r"^#(a|approve)($)"))    
