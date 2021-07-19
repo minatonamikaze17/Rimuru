@@ -1,2 +1,2 @@
-# Rimuru
+# NotRimuru
 Just a custom userbot!!! , Got no ideas....
