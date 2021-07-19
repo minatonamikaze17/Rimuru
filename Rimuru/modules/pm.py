@@ -24,7 +24,7 @@ async def pmperm(slime):
   if user.id in now:
     count = now[user.id] 
     if count == 5:
-      await rimuru.send_file(slime.chat_id,file="CAADBQADUgMAAp6ZWVadu3NWvPQb8gI")
+      await rimuru.send_file(slime.chat_id,file="CAADBQADbAIAAiD6qVdgpH_JBFmR_AI")
       time.sleep(2)
       await slime.reply("Stop now, or i will block you...")
       now[user.id] = count + 1
