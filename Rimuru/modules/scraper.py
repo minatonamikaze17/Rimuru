@@ -5,7 +5,7 @@ from Rimuru import rimuru
 @rimuru.on(events.NewMessage(outgoing=True, pattern=r'^#s(.*)'))
 async def movscrape(slime):
   args = slime.message.text[2:]
-  chats = [ -1001572491465, -1001267936827 ]
+  chats = [ -1001319636912 ]
   count = 0
   await slime.edit("Searching....")
   for chat in chats:
